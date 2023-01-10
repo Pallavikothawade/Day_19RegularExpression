@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace Day_19RegularExpression
         {
             Console.WriteLine("Welcome The Regular Expression");
             Console.WriteLine("Plz enter Your choice");
-            Console.WriteLine("1.Pincode\n");
+            Console.WriteLine("1.PincodeUC1\n2:PincodeUC2\n3:PincodeUC3\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -23,6 +24,10 @@ namespace Day_19RegularExpression
                 case 2:
                     PincodeUC2 pincode = new PincodeUC2();
                     pincode.CheckAlphabets();
+                    break;
+                case 3:
+                    PincodeUC3 pincodeUC3 = new PincodeUC3();
+                    pincodeUC3.CheckAlphabetsUC3();
                     break;
 
             }
