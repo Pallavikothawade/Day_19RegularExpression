@@ -11,6 +11,17 @@ namespace Day_19RegularExpression
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome The Regular Expression");
+            Console.WriteLine("Plz enter Your choice");
+            Console.WriteLine("1.Pincode\n");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch(option)
+            {
+                case 1:
+                    PincodeUC1 pincodeUC1 = new PincodeUC1();
+                    pincodeUC1.Check_sixdigit();
+                    break;
+
+            }
             Console.ReadLine();
         }
     }
