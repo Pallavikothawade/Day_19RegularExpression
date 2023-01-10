@@ -12,7 +12,7 @@ namespace Day_19RegularExpression
         public void Check_sixdigit()
         {
             string pattern = "^[0-9]{6}$";
-            string[] arr = {"203546","7456B2","236545","40023M","40235A"};
+            string[] arr = {"203546","7456B2","236545","40023M","A400088"};
                 foreach(string input in arr)
                 {
                       if(Regex.IsMatch(input,pattern))

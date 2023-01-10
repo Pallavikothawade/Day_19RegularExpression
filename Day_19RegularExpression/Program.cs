@@ -20,6 +20,10 @@ namespace Day_19RegularExpression
                     PincodeUC1 pincodeUC1 = new PincodeUC1();
                     pincodeUC1.Check_sixdigit();
                     break;
+                case 2:
+                    PincodeUC2 pincode = new PincodeUC2();
+                    pincode.CheckAlphabets();
+                    break;
 
             }
             Console.ReadLine();
