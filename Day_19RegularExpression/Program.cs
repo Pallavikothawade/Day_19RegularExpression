@@ -13,7 +13,7 @@ namespace Day_19RegularExpression
         {
             Console.WriteLine("Welcome The Regular Expression");
             Console.WriteLine("Plz enter Your choice");
-            Console.WriteLine("1.PincodeUC1\n2:PincodeUC2\n3:PincodeUC3\n");
+            Console.WriteLine("1.PincodeUC1\n2:PincodeUC2\n3:PincodeUC3\n4:PincodeUc4\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -28,6 +28,10 @@ namespace Day_19RegularExpression
                 case 3:
                     PincodeUC3 pincodeUC3 = new PincodeUC3();
                     pincodeUC3.CheckAlphabetsUC3();
+                    break;
+                case 4:
+                    PincodeUc4 pincodeUc4 = new PincodeUc4();
+                    pincodeUc4.CheckAlphabetsUC4();
                     break;
 
             }

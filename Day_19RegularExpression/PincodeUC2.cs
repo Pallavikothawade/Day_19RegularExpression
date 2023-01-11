@@ -12,7 +12,7 @@ namespace Day_19RegularExpression
         public void CheckAlphabets()
         {
             string pattern = "^[0-9][a-zA-Z]{6}$";
-            string[] arr = { "1ABCDEF", "745622", "56942K", "1wasdfa", "A40088" };
+            string[] arr = { "1ABCDEF", "745622", "56942K", "1wasdfa", "A40088" };//Uc2 invalid case A40088
 
             foreach (string input in arr)
             {

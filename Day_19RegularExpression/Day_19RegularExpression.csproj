@@ -46,6 +46,7 @@
     <Compile Include="PincodeUC1.cs" />
     <Compile Include="PincodeUC2.cs" />
     <Compile Include="PincodeUC3.cs" />
+    <Compile Include="PincodeUc4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

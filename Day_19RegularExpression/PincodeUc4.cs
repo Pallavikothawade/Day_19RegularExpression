@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Day_19RegularExpression
 {
-    class PincodeUC3
+    class PincodeUc4
     {
-        public void CheckAlphabetsUC3()
+        public void CheckAlphabetsUC4()
         {
             string pattern = "^[0-9][a-zA-Z]{6}$";
-            string[] arr = { "1ABCDEF", "745622", "40008B", "1wasdfa", "A40088" };//UC3 invalid case 40008B
+            string[] arr = { "400 088", "745622", "40008B", "1wasdfa", "A40088" };//UC4 400 088 invalid case
 
             foreach (string input in arr)
             {
